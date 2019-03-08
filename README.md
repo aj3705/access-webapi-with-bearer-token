@@ -94,7 +94,7 @@ Note down the git clone uri
    
 ### 2.4 Initializ,stage and commit all your applicatin files to your local git repo on your desktop
 
-Change directories to the "RetailApi" folder (created in step 1: Build a simple Web API...) in your command shell and type the following command 
+**Initialize:** change directories to the "RetailApi" folder (created in step 1: Build a simple Web API...) in your command shell and type the following command 
 
    ```msdos
    git init
@@ -104,21 +104,21 @@ Change directories to the "RetailApi" folder (created in step 1: Build a simple 
    Initialized empty Git repository in C:/RetailApi/.git/
    ```
    
-Stage application files: Type the followng command in your command shell
+**Stage application files:** type the followng command in your command shell
 
    ```
    git add . 
    ```
    The command above adds all files, represented by the ".", to the staging state of Git.
 
-Commit your code to local git
+**Commit** your code to local git
 
    ```
    git commit -m "Initial Commit" 
    ```
 ### 2.5 Add Remote for the local Git Repo  to connect the local git to Azure git
 
-Copy the git clone uri from step 2.2.3 and execute the following command in your command shell
+Copy the git clone uri from step 2.3 and execute the following command in your command shell
   
    ```msdos
    git remote add origin  https://retailapixxx.scm.azurewebsites.net:443/retailapixxx.git
