@@ -245,10 +245,10 @@ Click on Body and select the x-www-form-urlencoded radio button.
 
 Enter the following key value pairs in the form fields as shown in the screenshot below
 
-*key: grant_type , value: "client_credentials"
-*key: client_id, value: Azure AD Applciation id of the client application from step 4.2.2
-*key: resource, value : Azure AD Application id of the Web API from step 4.1
-*key: client_secret, value: client secret of the client application from step 4.2.3
+* key: grant_type , value: "client_credentials"
+* key: client_id, value: Azure AD Applciation id of the client application from step 4.2.2
+* key: resource, value : Azure AD Application id of the Web API from step 4.1
+* key: client_secret, value: client secret of the client application from step 4.2.3
 
 Click on Send. You should get the Bearer token in the response as shown below
 ![bearer token](/images/postman-gettoken.png)
