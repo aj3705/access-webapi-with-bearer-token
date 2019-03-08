@@ -250,10 +250,7 @@ Enter the following key value pairs in the form fields as shown in the screensho
 * key: resource, value : Azure AD Application id of the Web API from step 4.1
 * key: client_secret, value: client secret of the client application from step 4.2.3
 
-Click on Send. You should get the Bearer token in the response as shown below
-![bearer token](/images/postman-gettoken.png)
-
-Copy the bearer token returned in the response
+Click on Send. You should get the Bearer token as shown below.Copy the bearer token returned in the response
 
 ![bearer token 2](/images/bearer-token-2.PNG)
 
