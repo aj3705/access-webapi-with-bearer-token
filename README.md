@@ -166,23 +166,28 @@ In this step you will enable Azure AD authentication for your Web API. Once auth
 
 ### 3.1 Enable Authentication
 
-Navigate to your Web App in Azure Portal and perform the following
+Navigate to your Web App in Azure Portal and perform the following steps:
 
 Click on "Authentication / Authorization" in the left navigation pane
+
 ![auth authorization](/images/auth-authorization.PNG)
 
 Click on the "On" button under App Service Authentication
+
 ![auth authorization](/images/auth2.PNG)
 
 Select "Login with Azure Active Directory" in the "Action to take when request is not authenticated" drop down and click on "Azure Active Directory" under "Authentication Providers"
+
 ![auth authorization](/images/auth3.PNG)
 
 Click on "Express" > click on "Creat New AD App" and click "OK"
+
 ![auth authorization](/images/auth4-2.PNG)
 
 This will create a new AD App for your Web API and turn on Authentication for your Web API. 
 
 ### 3.1 Verify AD Authentication is activated.
+
 Go back to the browser and try to access the url for the Web APP. You will be prompted to enter the crendentials for the Web API.
 
 ![auth authorization](/images/auth5.PNG)
