@@ -83,7 +83,7 @@ Click on Deployment Center > Local Git > Continue > App Service Kudu build serve
    
 ### 2.3 Create deployment credentials for your Web App. 
 
-Go to your Web App > Click on Deployment Center > Click on Deployment Credentials     > User Cedentials > Enter a user name and password and click on save. 
+Go to your Web App > Click on Deployment Center > Click on Deployment Credentials > User Cedentials > Enter a user name and password and click on save. Note down the username and password for future use.
    
    ![deployment credentials](/images/deploymentcredentials.PNG)
     
