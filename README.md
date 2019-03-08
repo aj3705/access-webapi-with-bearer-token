@@ -207,9 +207,6 @@ Navigate to your Web API > click on Authentication / Authorization > Click on Au
 
 Navigate to your Azure portal > click on All Services(in the left pane) > click on Identity > click on Azure Active Directory > click on App registrations > Click on New application registration > enter Application name , leave the application type as "Web App / API" , enter the sign-on url as http://localhost (thid doesnt have to be real) > click on create
 
-![web api app id](/images/ad-appid.PNG)
-
-
 ![client app](/images/client-app.PNG)
 
 
