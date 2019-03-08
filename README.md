@@ -116,7 +116,7 @@ Note down the git clone uri
    ```
    git commit -m "Initial Commit" 
    ```
-### 2.5 Add Remote for the local Git Repo  to connect the local git to Azure git
+### 2.5 Add remote for the local git repo to connect the local git to Azure git
 
 Copy the git clone uri from step 2.3 and execute the following command in your command shell
   
@@ -140,7 +140,7 @@ Execute the following command from your command shell
 ```
  git push origin master
 ```
-You will be prompted for a username and password. Enter the username and password you created in step 2.2.2 : create deployment credentials for your Web App
+You will be prompted for a username and password. Enter the username and password you created in step 2.3: create deployment credentials for your Web App
 
 Verify code is uploaded to Azure
 
@@ -164,21 +164,26 @@ Congragulations !! You have successfully deployed your Web API to Azure Web Apps
 
 In this step you will enable Azure AD authentication for your Web API. Once authentication is enabled, your Web API can not be accessed without user credentials.
 
-### 3.1 Navigate to your Web App in Azure Portal and perform the following
+### 3.1 Enable Authentication
 
-#### 3.1.1 Click on "Authentication / Authorization" in the left navigation pane
+Navigate to your Web App in Azure Portal and perform the following
+
+Click on "Authentication / Authorization" in the left navigation pane
 ![auth authorization](/images/auth-authorization.PNG)
 
-#### 3.1.2 Click on the "On" button under App Service Authentication
+Click on the "On" button under App Service Authentication
 ![auth authorization](/images/auth2.PNG)
 
-#### 3.1.3 Select "Login with Azure Active Directory" in the "Action to take when request is not authenticated" drop down and click on "Azure Active Directory" under "Authentication Providers"
+Select "Login with Azure Active Directory" in the "Action to take when request is not authenticated" drop down and click on "Azure Active Directory" under "Authentication Providers"
 ![auth authorization](/images/auth3.PNG)
 
-#### 3.1.2 Click on "Express" > click on "Creat New AD App" and click "OK"
+Click on "Express" > click on "Creat New AD App" and click "OK"
 ![auth authorization](/images/auth4-2.PNG)
 
-This will create a new AD App for your Web API and turn on Authentication for your Web API. Now go back to the browser and try to access the url for the Web APP. You will be prompted to enter the crendentials for the Web API.
+This will create a new AD App for your Web API and turn on Authentication for your Web API. 
+
+### 3.1 Verify AD Authentication is activated.
+Go back to the browser and try to access the url for the Web APP. You will be prompted to enter the crendentials for the Web API.
 
 ![auth authorization](/images/auth5.PNG)
 
