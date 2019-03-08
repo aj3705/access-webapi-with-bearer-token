@@ -88,7 +88,7 @@ Go to your Web App > Click on Deployment Center > Click on Deployment Credential
    ![deployment credentials](/images/deploymentcredentials.PNG)
     
     
-Note down the git clone uri
+**Note down the git clone uri.**
    
    ![git clone](/images/deploymenturl.PNG)
    
@@ -205,7 +205,6 @@ Navigate to your Web API > click on Authentication / Authorization > Click on Au
 
 ### 4.2 Create an Azure AD Application for the Web API client
 
-#### 4.2.1 create client app
 Navigate to your Azure portal > click on All Services(in the left pane) > click on Identity > click on Azure Active Directory > click on App registrations > Click on New application registration > enter Application name , leave the application type as "Web App / API" , enter the sign-on url as http://localhost (thid doesnt have to be real) > click on create
 
 ![web api app id](/images/ad-appid.PNG)
@@ -214,14 +213,14 @@ Navigate to your Azure portal > click on All Services(in the left pane) > click 
 ![client app](/images/client-app.PNG)
 
 
-#### 4.2.2 Get  Azure AD application ID for the client Application
+### 4.3 Get  Azure AD application ID for the client Application
 
 Navigate to your Azure AD in the portal > click on App registrations > click on the Azure AD client application you just created and note down the application id.
 
 ![client app id](/images/client-appid.PNG)
 
 
-#### 4.2.3 Get client secret for the client Application
+### 4.4 Get client secret for the client Application
 
 Navigate to your client App in Azure AD > click on settings > click on Keys > Enter a key name and pick a duration > click on save. 
 
@@ -231,13 +230,13 @@ This will generate a new secret. You will have to note down the secret before yo
 
 ![client secret step2](/images/client-secret-generated.PNG)
 
-#### 4.2.4 Get the Azure AD token URL
+#### 4.5 Get the Azure AD token URL
 
 Navigate to Azure AD in your Azure Portal > Click on App Registrations > click on Endpoints. Copy the Token URL.
 
 ![token url](/images/token-endpoint.PNG)
 
-#### 4.2.5 Get the bearer token
+### 4.6 Get the bearer token
 
 Open Postman for windows > click on New Request > enter the required values (create collection if needed) > click save.
 
@@ -257,7 +256,7 @@ Copy the bearer token returned in the response
 
 ![bearer token 2](/images/bearer-token-2.PNG)
 
-###  4.2.6 Make an API call to your Web API
+###  4.7 Make an API call to your Web API
 Open a new Request in Postman > Now select "Get" from the drop down > Enter the Web API URL (eg.https://retailapixxx.azurewebsites.net/api/values) in the url field
 
 Click on "Authorization" and select "Bearer Token" from the "TYPE" dropdown. Enter the bearer token copied in the previous step.
