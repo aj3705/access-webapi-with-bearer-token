@@ -53,8 +53,7 @@ dotnet run
 ```
 *The preceding command will start the Web API locally The Web API will be hosted at both ```http://localhost:5000``` and ```https://localhost:5001```*
 
-### 1.3 Verify the API  
-Open a browser and type ```https://localhost:5001/api/values```. You should see the following
+**Verify the API:** Open a browser and type ```https://localhost:5001/api/values```. You should see the following
 
 ![browser output](/images/retailapibrowseroutput.PNG)
 
