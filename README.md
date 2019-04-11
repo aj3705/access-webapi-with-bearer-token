@@ -186,7 +186,7 @@ Click on "Express" > click on "Creat New AD App" and click "OK"
 
 This will create a new AD App for your Web API and turn on Authentication for your Web API. 
 
-### 3.1 Verify AD Authentication is activated.
+### 3.2 Verify AD Authentication is activated.
 
 Go back to the browser and try to access the url for the Web APP. You will be prompted to enter the crendentials for the Web API.
 
@@ -227,7 +227,7 @@ This will generate a new secret. You will have to note down the secret before yo
 
 ![client secret step2](/images/client-secret-generated.PNG)
 
-#### 4.5 Get the Azure AD token URL
+### 4.5 Get the Azure AD token URL
 
 Navigate to Azure AD in your Azure Portal > Click on App Registrations > click on Endpoints. Copy the Token URL.
 
